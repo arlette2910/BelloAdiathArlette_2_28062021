@@ -32,7 +32,7 @@
          <section id="recherche" class="recherche">
 
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-            <h2>En plein centre ville ou en pleine nature</h2>
+            <p>En plein centre ville ou en pleine nature</p>
 
             <form>
 
@@ -42,7 +42,7 @@
 
                 <input type="text" value="Marseille, France" name="recherche" >
 
-                <button class="rechercher"><span>Rechercher</span></button>
+                <button type="Submit" id="rechercher"><span class="boutton recherche">Rechercher</span></button>
 
             </form>
 
@@ -52,22 +52,22 @@
                 <h2>Filtres</h2>
 
                 <div>
-                    <i class="fas fa-money-bill-wave"></i>
+                    <i class="fas fa-money-bill-wave" aria-hidden="true"></i>
                     <p>Économique</p>
                 </div>
 
                 <div>
-                    <i class="fas fa-child"></i>
+                    <i class="fas fa-child" aria-hidden="true"></i>
                     <p>Familial</p>
                 </div>
 
                 <div>
-                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-heart" aria-hidden="true"></i>
                     <p>Romantique</p>
                 </div>
 
                 <div>
-                    <i class="fas fa-dog"></i>
+                    <i class="fas fa-dog" aria-hidden="true"></i>
                     <p>Animaux autorisés</p>
                 </div>
 
@@ -76,8 +76,11 @@
 
 
             <div class="chiffres_logement">
-                <i class="fas fa-info-circle"></i>
-                <h3> Plus de 500 logements sont disponibles dans cette ville </h3>
+                <div id="info">
+                    <i class="fas fa-info-circle" aria-hidden="true"></i>
+                </div>
+                
+                <p class="infotext"> Plus de 500 logements sont disponibles dans cette ville </p>
             </div>
 
         </section>
@@ -85,7 +88,7 @@
 
         <!-- Partie de l'hébergement: Divisé en deux, une partie logement et une partie logement populaire-->
 
-        <section id="hébergement" class="hébergement">
+        <section class="hébergement">
 
             <h2>Hébergement à Marseille</h2>
 
@@ -94,20 +97,20 @@
                 <a class="contenu_p" href="#">
 
                     <figure>
-                        <img src="images/hebergements/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge_la_cannebière">
+                        <img src="images/hebergements/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge la cannebière">
                         <figcaption>
                             <h3>Auberge la Cannebière</h3>
-                            <p>Nuit à partir de 25€</p>
+                            <p>Nuit à partir de <strong>25€</strong></p>
                         </figcaption>
                     </figure>
 
                     <div class="notation">
 
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star blue-star" aria-hidden="true" ></i>
+                        <i class="fas fa-star blue-star" aria-hidden="true"></i>
+                        <i class="fas fa-star blue-star" aria-hidden="true"></i>
+                        <i class="fas fa-star blue-star" aria-hidden="true"></i>
+                        <i class="fas fa-star grey-star" aria-hidden="true"></i>
 
                     </div>
                 </a>
@@ -115,20 +118,20 @@
                 <a class="contenu_p" href="#">
 
                     <figure>
-                        <img src="images/hebergements/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hôtel_du_Port">
+                        <img src="images/hebergements/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hôtel du Port">
                         <figcaption>
                             <h3>Hôtel du port</h3>
-                            <p>Nuit à partir de 52€</p>
+                            <p>Nuit à partir de <strong>52€</strong></p>
                         </figcaption>
                     </figure>
 
                     <div class="notation">
 
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star blue-star" aria-hidden="true"></i>
+                        <i class="fas fa-star blue-star" aria-hidden="true"></i>
+                        <i class="fas fa-star blue-star" aria-hidden="true"></i>
+                        <i class="fas fa-star blue-star" aria-hidden="true"></i>
+                        <i class="fas fa-star blue-star" aria-hidden="true"></i>
 
                     </div>
                 </a>
@@ -136,7 +139,7 @@
                 <a class="contenu_p" href="#">
 
                     <figure>
-                        <img src="images/hebergements/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hôtel_les-Mouettes">
+                        <img src="images/hebergements/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hôtel les Mouettes">
                         <figcaption>
                             <h3>Hôtel les mouettes</h3>
                             <p> Nuit à partir de <strong>76€</strong> </p>
@@ -145,11 +148,11 @@
 
                     <div class="notation">
 
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star blue-star" aria-hidden="true"></i>
+                        <i class="fas fa-star blue-star" aria-hidden="true"></i>
+                        <i class="fas fa-star blue-star" aria-hidden="true"></i>
+                        <i class="fas fa-star blue-star" aria-hidden="true"></i>
+                        <i class="fas fa-star grey-star" aria-hidden="true"></i>
 
                     </div>
                 </a>
@@ -157,7 +160,7 @@
                 <a class="contenu_p" href="#">
 
                     <figure>
-                        <img src="images/hebergements/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel_de_la_mer">
+                        <img src="images/hebergements/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel de la mer">
                         <figcaption>
                             <h3>Hôtel de la mer</h3>
                             <p> Nuit à partir de <strong>46€</strong> </p>
@@ -166,11 +169,11 @@
 
                     <div class="notation">
 
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star blue-star" aria-hidden="true"></i>
+                        <i class="fas fa-star blue-star" aria-hidden="true"></i>
+                        <i class="fas fa-star blue-star" aria-hidden="true"></i>
+                        <i class="fas fa-star grey-star" aria-hidden="true"></i>
+                        <i class="fas fa-star grey-star" aria-hidden="true"></i>
 
                     </div>
 
@@ -180,7 +183,7 @@
                 <a class="contenu_p" href="#">
 
                     <figure>
-                        <img src="images/hebergements/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge_le_Panier">
+                        <img src="images/hebergements/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge le Panier">
                         <figcaption>
                             <h3>Auberge le Panier</h3>
                             <p> Nuit à partir de <strong>23€</strong> </p>
@@ -189,11 +192,11 @@
 
                     <div class="notation">
 
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star blue-star" aria-hidden="true"></i>
+                        <i class="fas fa-star blue-star" aria-hidden="true"></i>
+                        <i class="fas fa-star blue-star" aria-hidden="true"></i>
+                        <i class="fas fa-star blue-star" aria-hidden="true"></i>
+                        <i class="fas fa-star grey-star" aria-hidden="true"></i>
 
                     </div>
 
@@ -203,7 +206,7 @@
                 <a class="contenu_p" href="#">
 
                     <figure>
-                        <img src="images/hebergements/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel_chez_Amina">
+                        <img src="images/hebergements/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel chez Amina">
                         <figcaption>
                             <h3>Hôtel chez Amina</h3>
                             <p> Nuit à partir de <strong>96€</strong> </p>
@@ -212,11 +215,11 @@
 
                     <div class="notation">
 
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star blue-star" aria-hidden="true"></i>
+                        <i class="fas fa-star blue-star" aria-hidden="true"></i>
+                        <i class="fas fa-star blue-star" aria-hidden="true"></i>
+                        <i class="fas fa-star blue-star" aria-hidden="true"></i>
+                        <i class="fas fa-star blue-star" aria-hidden="true"></i>
 
                     </div>
 
@@ -234,32 +237,33 @@
 
 
                 <h2>
-                    Les plus populaires
+                    "Les plus populaires"
 
-                    <i class="fas fa-chart-line"></i>
+                    <i class="fas fa-chart-line" aria-hidden="true"></i>
 
                 </h2>
 
                 <a class="contenu_po" href="#">
 
                     <figure>
+                        <img src="images/hebergements/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hôtel le soleil du matin">
+                    </figure>  
 
-                        <img src="images/hebergements/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hôtel_le_soleil_du_matin">
-                        <figcaption>
-                            <h3>Hôtel Le Soleil du matin</h3>
+
+                <div class="logement_po">
+                    <h3>Hôtel Le Soleil du matin</h3>
                             <p> Nuit à partir de <strong>128€</strong> </p>
-                        </figcaption>
-                    </figure>
 
                     <div class="notation">
 
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star blue-star" aria-hidden="true"></i>
+                        <i class="fas fa-star blue-star" aria-hidden="true"></i>
+                        <i class="fas fa-star blue-star" aria-hidden="true"></i>
+                        <i class="fas fa-star blue-star" aria-hidden="true"></i>
+                        <i class="fas fa-star blue-star" aria-hidden="true"></i>
 
                     </div>
+                </div>
 
                 </a>
 
@@ -268,7 +272,7 @@
 
                     <figure>
 
-                        <img src="images/hebergements/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Au_coeur_de_l'eau_Chambres d'hôtes">
+                        <img src="images/hebergements/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Au coeur de l'eau Chambres d'hôtes">
                         <figcaption>
                             <h3>Hôtel de l'eau Chambres d'hôtes</h3>
                             <p> Nuit à partir de <strong>71€</strong> </p>
@@ -277,11 +281,11 @@
 
                     <div class="notation">
 
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star blue-star" aria-hidden="true"></i>
+                        <i class="fas fa-star blue-star" aria-hidden="true"></i>
+                        <i class="fas fa-star blue-star" aria-hidden="true"></i>
+                        <i class="fas fa-star blue-star" aria-hidden="true"></i>
+                        <i class="fas fa-star grey-star" aria-hidden="true"></i>
 
                     </div>
 
@@ -292,7 +296,7 @@
 
                     <figure>
 
-                        <img src="images/hebergements/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel_tout _bleu_et_blanc">
+                        <img src="images/hebergements/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel tout bleu et blanc">
                         <figcaption>
                             <h3>Hôtel Tout bleu et Blanc</h3>
                             <p>Nuit à partir de  <strong>68€</strong></p>
@@ -301,11 +305,11 @@
 
                     <div class="notation">
 
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star blue-star" aria-hidden="true"></i>
+                        <i class="fas fa-star blue-star" aria-hidden="true"></i>
+                        <i class="fas fa-star blue-star" aria-hidden="true"></i>
+                        <i class="fas fa-star blue-star" aria-hidden="true"></i>
+                        <i class="fas fa-star grey-star" aria-hidden="true"></i>
 
                     </div>
 

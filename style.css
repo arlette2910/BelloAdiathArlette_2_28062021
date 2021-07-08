@@ -47,9 +47,9 @@ ul{
 
 /*Header*/
 
-.entête{
+header{
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-end;
 	width: 100%;
 }
 
@@ -66,7 +66,7 @@ nav ul{
 	width: 290px;
 	padding-top: 13px;
 	margin-top: 0;
-	justify-content: space-between;
+	justify-content: flex-end;
 }
 
 nav li{
@@ -74,6 +74,17 @@ nav li{
 	padding-top:40px ;
 	margin-top: -40px;
 	width: 40%;
+}
+
+nav li:hover{
+	color: #0065fc;
+	margin-top: -40px;
+	padding-top: 36px;
+	border-top: 1.8px solid #0065fc;
+
+}
+nav a{
+	font-size: 1em;
 }
 
 .sinscrire{

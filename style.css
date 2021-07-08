@@ -44,25 +44,21 @@ ul{
 /*Header*/
 
 .entête{
-	display: flex;
-	justify-content: flex-end;
-	width: 100%;
+	display: grid;
+	margin: auto;
+	max-width: 1000px;
+	grid-template-areas: "logo . navbar button";
+	grid-template-columns: auto 2fr auto auto;
+
+
 }
 
 .logo{
-	width: 90px;
-	top: 20px;
-	left: 2.5%;
+	    margin-left: 1rem;
 }
 
 .entête nav{
-	display: flex;
-	list-style-type: none;
-	width: 290px;
-	padding-top: 13px;
-	margin-top: 0;
-	justify-content: flex-end;
-
+	grid-area: navbar;
 }
 
 .entête ul{
@@ -78,7 +74,7 @@ ul{
 .entête nav a{
 	padding: 1rem 0;
 	text-align: center;
-	font-weight: 450;
+	font-weight: 495;
 	border-bottom: 3px solid;
 }
 
@@ -88,9 +84,7 @@ ul{
 }
 
 #sinscrire{
-	padding-right: 10px;
-	padding-top: 13px;
-	padding-left: 10px;
+	grid-area: button;
 }
 
 #sinscrire a{

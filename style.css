@@ -43,7 +43,7 @@ ul{
 
 /*Header*/
 
-.header{
+.entête{
 	display: flex;
 	justify-content: flex-end;
 	width: 100%;
@@ -53,44 +53,47 @@ ul{
 	width: 90px;
 	top: 20px;
 	left: 2.5%;
-	position: absolute;
 }
 
-.header nav{
+.entête nav{
 	display: flex;
 	list-style-type: none;
 	width: 290px;
 	padding-top: 13px;
 	margin-top: 0;
 	justify-content: flex-end;
-	
+
 }
 
-nav li{
+.entête ul{
 	text-align: center;
-	padding-top:40px ;
-	margin-top: -40px;
-	width: 40%;
+	margin:1.2rem 0;
+	width: 90%;
 }
 
-nav li:hover{
-	color: #0065fc;
-	margin-top: -40px;
-	padding-top: 36px;
-	border-top: 1.8px solid #0065fc;
+.entête li {
+	padding: 0 1.2rem;
 
 }
-nav a{
-	font-size: 1em;
+.entête nav a{
+	padding: 1rem 0;
+	text-align: center;
+	font-weight: 450;
+	border-bottom: 3px solid;
 }
 
-.sinscrire{
+.entête nav a:hover {
+	border-top: 2.5px solid #0065FC;
+	color: #0065FC;
+}
+
+#sinscrire{
 	padding-right: 10px;
 	padding-top: 13px;
 	padding-left: 10px;
 }
 
-.sinscrire a{
+#sinscrire a{
 	font-size: 1em;
 	color: #0065FC;
 	font-weight: bold;

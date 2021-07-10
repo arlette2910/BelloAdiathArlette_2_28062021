@@ -43,51 +43,59 @@ ul{
 
 /*Header*/
 
-.entête{
-	display: grid;
-	margin: auto;
-	max-width: 1000px;
-	grid-template-areas: "logo . navbar button";
-	grid-template-columns: auto 2fr auto auto;
-
-
+.entete{
+	display: flex;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    justify-content: space-between;
 }
 
 .logo{
-	    margin-left: 1rem;
+	width: 15%;
 }
 
-.entête nav{
-	grid-area: navbar;
+.entete nav{
+	display: flex;
+    width: 360px;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 15px;
 }
 
-.entête ul{
-	text-align: center;
-	margin:1.2rem 0;
-	width: 90%;
+.entete ul{
+	align-items: center;
+	width: 100%;
+	
 }
 
-.entête li {
-	padding: 0 1.2rem;
-
+.entete li {
+	align-items: center;
+    justify-content: space-between;
 }
-.entête nav a{
+
+.heberge {
+	border-top: 3px solid #0065FC;
+    color: #0065FC;
+}
+
+.entete nav a{
 	padding: 1rem 0;
-	text-align: center;
-	font-weight: 495;
-	border-bottom: 3px solid;
+	font-weight: 500;
+	
 }
 
-.entête nav a:hover {
+.entete nav a:hover {
 	border-top: 2.5px solid #0065FC;
 	color: #0065FC;
 }
 
-#sinscrire{
-	grid-area: button;
+#sinscrire {
+	align-items: center;
+    width: auto;
 }
 
-#sinscrire a{
+#sinscrire a {
 	font-size: 1em;
 	color: #0065FC;
 	font-weight: bold;

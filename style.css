@@ -1,4 +1,4 @@
-/*Général*/
+          /*GENERAL*/
 
 body{
 	font-family : 'Raleway', sans-serif ;
@@ -18,7 +18,7 @@ h2 , h3{
 
 p{
 	font-size: 1em;
-	font-weight: 399 ;
+	font-weight: 400;
 }
 
 a{
@@ -41,7 +41,7 @@ ul{
 	margin: 0;
 }
 
-/*Header*/
+           /*HEADER*/
 
 .entete{
 	display: flex;
@@ -52,7 +52,8 @@ ul{
 }
 
 .logo{
-	width: 10%;
+	width: 100px;
+	margin-left: 1rem;
 }
 
 .entete nav{
@@ -100,3 +101,32 @@ ul{
 	color: #0065FC;
 	font-weight: bold;
 }
+
+           /*MAIN*/
+
+.corps {
+	width: 95%;
+    margin: auto;
+    padding-top: 25px;
+}
+
+          /*Zône de recherche*/
+
+.recherche {
+	margin-left: 15px;
+}
+
+.recherche h1{
+	margin-bottom: -0.5em;
+    font-size: 1.4em;
+    font-weight: 900;
+}
+
+.recherche form {
+    display: inline-flex;
+    max-width: 100%;
+    overflow: auto;
+}
+
+
+

@@ -295,13 +295,12 @@ ul{
 
 .logements h3,
 .logementPo h3 {
-   margin: 0.25rem O.75rem 0.25rem 0.75rem;
+   margin: 0 0.75rem 0.25rem 0.75rem;
 }
 
 .logements div {
-    font-size: 0.9em;
-    margin: 0.25rem O.75rem 0.25rem 0.75rem;
-}
+     margin: 0 0.75rem 0.25rem 0.75rem;
+ }
 
 .notation {
     display: flex;

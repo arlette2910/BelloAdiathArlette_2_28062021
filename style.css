@@ -262,9 +262,13 @@ ul{
     margin: auto;
     padding: 10px;
 }
+
+.logementP header {
+    grid-column: 1/-1;
+}
  
  .logementP h2 {
-    margin: 30px 30px 0 20px;
+    margin: 0;
  }
 
 .logements {
@@ -329,11 +333,10 @@ ul{
            /*Logement Populaire*/
 
 .logementPopulaire {
-    display: flex;
     padding: 2rem;
     row-gap: 2rem;
     display: grid;
-    align-items: center;
+    align-items: start;
     grid-template-rows: auto repeat(3,1fr);
 }
 

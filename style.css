@@ -254,22 +254,16 @@ ul{
           /*Hébergement à Maseille*/
 
 .logementP {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
     width: 100%;
     margin: auto;
-    padding: 10px;
 }
 
-.logementP header {
-    grid-column: 1/-1;
+.chambres {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
- 
- .logementP h2 {
-    margin: 0;
- }
 
 .logements {
     display:flex;
@@ -291,7 +285,7 @@ ul{
 }
 
 .logements img {
-     width: 100%;
+    width: 100%;
     height: 100px;
     object-fit: cover;
     border-radius:15px 15px 0 0;
@@ -299,14 +293,14 @@ ul{
     max-height: 100%;
 }
 
-.hebergement h3 {
-    font-size: 0.9em;
-    margin: initial;
+.logements h3,
+.logementPo h3 {
+   margin: 0.25rem O.75rem 0.25rem 0.75rem;
 }
 
-.hebergement p {
+.logements div {
     font-size: 0.9em;
-    margin: inherit;
+    margin: 0.25rem O.75rem 0.25rem 0.75rem;
 }
 
 .notation {
@@ -322,7 +316,7 @@ ul{
 }
 
 .grey-star {
-    color: grey;
+    color: #d9d9d9;
     font-size: small;
 }
 
@@ -345,6 +339,20 @@ ul{
     justify-content: space-between;
     margin: 0 ; 
 }
+
+/*LogementPo propriété des background et des padding*/
+
+
+.logementPo {
+    background-color: white;
+    padding: 0.375rem;
+    border-radius: 1.25rem;
+    box-shadow: 0 0 16px #0000002e;
+    transition-duration: 0.1s;
+    cursor: pointer;
+    box-sizing: border-box;
+    height: 100%;
+ }
 
 .logementPo {
     display: flex;
@@ -369,10 +377,18 @@ ul{
     object-fit: cover;
 }
 
+
+.logementPo div .notation {
+     margin: 0 0.75rem 0.25rem 0.75rem;
+}
+
 .texte {
     display: flex;
     flex-direction: column;
 }
+
+
+
 
 
 

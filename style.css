@@ -387,7 +387,33 @@ ul{
 }
 
 
+         /*Partie Footer*/
 
+.piedPage {
+    background-color: #F2F2F2;
+    width: 100%;
+}
+
+#pied {
+    display: flex;
+    max-width: 100%;
+    width: 1440px;
+    margin: auto;
+    padding: 0 2rem;
+    box-sizing: border-box; 
+}
+
+.pied {
+    padding: 2rem 2rem;
+}
+
+.pied ul {
+    display: block;
+}
+
+.pied ul li {
+    margin: 1rem 0;
+}
 
 
 

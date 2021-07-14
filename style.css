@@ -54,6 +54,7 @@ ul{
 .logo{
 	width: 100px;
 	margin-left: 1rem;
+    margin: 2rem;
 }
 
 .entete nav{
@@ -62,6 +63,7 @@ ul{
     justify-content: space-between;
     align-items: center;
     margin-right: 15px;
+    padding: 2rem;
 }
 
 .entete ul{
@@ -238,10 +240,12 @@ ul{
            /*Hébergement*/
 
 .hebergement {
-    display: flex;
-    flex-wrap: wrap;
+     display: flex;
     justify-content: space-between;
     width: 100%;
+    align-items: center;
+    padding-left: 13px;
+    margin-top: 0px;
 }
 
 .logementP,
@@ -254,8 +258,12 @@ ul{
           /*Hébergement à Maseille*/
 
 .logementP {
-    width: 100%;
-    margin: auto;
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    height: 80%;
 }
 
 .chambres {
@@ -277,7 +285,6 @@ ul{
     margin: 15px 0px;
     position: relative;
     padding: 0.380rem;
-    box-sizing: border-box;
 } 
 
 .logements figure {
@@ -289,13 +296,16 @@ ul{
     height: 100px;
     object-fit: cover;
     border-radius:15px 15px 0 0;
-    max-width: 100%;
-    max-height: 100%;
 }
 
 .logements h3,
 .logementPo h3 {
    margin: 0 0.75rem 0.25rem 0.75rem;
+}
+
+.logements p,
+.logementPo p {
+    padding-left: 12px;
 }
 
 .logements div {
@@ -321,6 +331,7 @@ ul{
 
 .plus {
     font-weight: bold;
+    padding-top: 25px;
 }
 
            /*Logement Populaire*/
@@ -331,6 +342,8 @@ ul{
     display: grid;
     align-items: start;
     grid-template-rows: auto repeat(3,1fr);
+    width: 25%;
+    max-width: 600px;
 }
 
 .logementPopulaire h2{
@@ -338,8 +351,6 @@ ul{
     justify-content: space-between;
     margin: 0 ; 
 }
-
-/*LogementPo propriété des background et des padding*/
 
 
 .logementPo {
@@ -359,6 +370,7 @@ ul{
     height: 100%;
     overflow: auto;
 }
+
 .logementPo figure {
     margin: 0;
     position: relative;
@@ -399,12 +411,12 @@ ul{
     max-width: 100%;
     width: 1440px;
     margin: auto;
-    padding: 0 2rem;
     box-sizing: border-box; 
 }
 
 .pied {
     padding: 2rem 2rem;
+    width: 75%;
 }
 
 .pied ul {

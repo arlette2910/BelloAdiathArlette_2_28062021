@@ -266,6 +266,12 @@ ul{
     height: 80%;
 }
 
+.logementP h2 {
+    margin: 10px;
+    padding-bottom: 20px;
+    font-size: 1.4em;
+}
+
 .chambres {
     display: flex;
     align-items: center;
@@ -350,6 +356,9 @@ ul{
     display:flex;
     justify-content: space-between;
     margin: 0 ; 
+    margin: 10px;
+    padding-bottom: 20px;
+    font-size: 1.4em;
 }
 
 
@@ -410,8 +419,8 @@ ul{
 
 .activites h2 {
     margin: 10px;
-    padding-bottom: 20px
-    font-size: 1.4em
+    padding-bottom: 20px;
+    font-size: 1.4em;
 }
 
 .regroupements {

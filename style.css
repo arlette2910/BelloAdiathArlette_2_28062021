@@ -1,50 +1,50 @@
           /*GENERAL*/
 
 body{
-	font-family : 'Raleway', sans-serif ;
-	margin: 0;
-	padding: 0;
+    font-family : 'Raleway', sans-serif ;
+    margin: 0;
+    padding: 0;
 }
 
 h1{
-	font-size: 1.3em;
-	font-weight: bold;
+    font-size: 1.3em;
+    font-weight: bold;
 }
 
 h2 , h3{
-	font-size: 1em;
-	font-weight: bold;
+    font-size: 1em;
+    font-weight: bold;
 }
 
 p{
-	font-size: 1em;
-	font-weight: 400;
+    font-size: 1em;
+    font-weight: 400;
 }
 
 a{
-	text-decoration: none;
-	color: black;
+    text-decoration: none;
+    color: black;
 }
 
 li{
-	display: flex;
-	list-style-type: none;
+    display: flex;
+    list-style-type: none;
 
 
 }
 
 ul{
-	display: flex;
-	list-style-type: none;
-	justify-content: space-between;
-	padding: 0;
-	margin: 0;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
 }
 
            /*HEADER*/
 
 .entete{
-	display: flex;
+    display: flex;
     align-items: center;
     margin-left: 15px;
     margin-right: 15px;
@@ -52,13 +52,13 @@ ul{
 }
 
 .logo{
-	width: 100px;
-	margin-left: 1rem;
+    width: 100px;
+    margin-left: 1rem;
     margin: 2rem;
 }
 
 .entete nav{
-	display: flex;
+    display: flex;
     width: 360px;
     justify-content: space-between;
     align-items: center;
@@ -67,47 +67,47 @@ ul{
 }
 
 .entete ul{
-	align-items: center;
-	width: 100%;
-	
+    align-items: center;
+    width: 100%;
+    
 }
 
 .entete li {
-	align-items: center;
+    align-items: center;
     justify-content: space-between;
 }
 
 .heberge {
-	border-top: 3px solid #0065FC;
+    border-top: 3px solid #0065FC;
     color: #0065FC;
 }
 
 .entete nav a{
-	padding: 1rem 0;
-	font-weight: 500;
-	
+    padding: 1rem 0;
+    font-weight: 500;
+    
 }
 
 .entete nav a:hover {
-	border-top: 2.5px solid #0065FC;
-	color: #0065FC;
+    border-top: 2.5px solid #0065FC;
+    color: #0065FC;
 }
 
 #sinscrire {
-	align-items: center;
+    align-items: center;
     width: auto;
 }
 
 #sinscrire a {
-	font-size: 1em;
-	color: #0065FC;
-	font-weight: bold;
+    font-size: 1em;
+    color: #0065FC;
+    font-weight: bold;
 }
 
            /*MAIN*/
 
 .corps {
-	width: 95%;
+    width: 95%;
     margin: auto;
     padding-top: 25px;
 }
@@ -115,11 +115,11 @@ ul{
           /*Zône de recherche*/
 
 .recherche {
-	margin-left: 15px;
+    margin-left: 15px;
 }
 
 .recherche h1{
-	margin-bottom: -0.5em;
+    margin-bottom: -0.5em;
     font-size: 1.4em;
     font-weight: 900;
 }
@@ -133,7 +133,7 @@ ul{
 }
 
 .barreRecherche {
-	background-color: #F2F2F2;
+    background-color: #F2F2F2;
     padding: 1rem 1.25rem;
     border-radius: 1rem 0 0 1rem;
     align-items: center;
@@ -152,7 +152,7 @@ ul{
 }
 
 #rechercher {
-	background-color: #0065FC;
+    background-color: #0065FC;
     color: white;
     font-weight: bold;
     border: none;
@@ -170,7 +170,7 @@ ul{
           /* Zône de filtres */
 
 .filtres {
-	display: flex;
+    display: flex;
     width: 80%;
     align-items: center;
     justify-content: space-between;
@@ -178,14 +178,14 @@ ul{
 }
 
 .filtres h2 {
-	margin: 0 2rem 1rem 0;
+    margin: 0 2rem 1rem 0;
     display: flex;
     align-items: center;
     margin-right: 10px;
 }
 
 .fil {
-	display: flex;
+    display: flex;
     align-items: center;
     margin-right: 1rem;
     border: 2px solid #d9d9d9;
@@ -196,11 +196,11 @@ ul{
 }
 
 .fil:hover {
-	background-color: #f2f7ff;
+    background-color: #f2f7ff;
 }
 
 .filtres i {
-	 background-color: #DEEBFF;
+     background-color: #DEEBFF;
     border-radius: 100%;
     height: 3rem;
     width: 1rem;
@@ -214,22 +214,22 @@ ul{
 }
 
 .typeFil {
-	font-weight: bold;
+    font-weight: bold;
 }
 
          /* Nombres Logement Disponible */
 
 .chiffresLogement {
-	display: flex;
+    display: flex;
     align-items: center;
     margin: 1rem 0 2rem 0;
 }
 
 #info {
-	display: flex;
-	justify-content: center;
-	color: #0065FC;
-	border: #f2f2f2 solid 2px;
+    display: flex;
+    justify-content: center;
+    color: #0065FC;
+    border: #f2f2f2 solid 2px;
     height: 2rem;
     width: 2rem;
     border-radius: 100%;
@@ -268,14 +268,17 @@ ul{
 
 .logementP h2 {
     margin: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
     font-size: 1.4em;
+    padding-left: 20px;
+    padding-top: 15px;
+
 }
 
 .chambres {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -286,7 +289,7 @@ ul{
     border-radius: 1.25rem;
     height: 190px;
     box-shadow: 0 0 16px #0000002e;
-    width: 30%; 
+    width: 26%; 
     line-height:1em;  
     margin: 15px 0px;
     position: relative;
@@ -298,7 +301,7 @@ ul{
 }
 
 .logements img {
-    width: 100%;
+    width: 102%;
     height: 100px;
     object-fit: cover;
     border-radius:15px 15px 0 0;
@@ -338,6 +341,7 @@ ul{
 .plus {
     font-weight: bold;
     padding-top: 25px;
+    padding-left: 33px;
 }
 
            /*Logement Populaire*/
@@ -350,14 +354,14 @@ ul{
     grid-template-rows: auto repeat(3,1fr);
     width: 25%;
     max-width: 600px;
+    height: 525px;
 }
 
 .logementPopulaire h2{
     display:flex;
     justify-content: space-between;
-    margin: 0 ; 
     margin: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 9px;
     font-size: 1.4em;
 }
 
@@ -445,17 +449,16 @@ ul{
     object-fit: cover;
     border-radius: 15px 15px 0 0;
     width: 100%;
-    height:359px;
+    height:360px;
 }
 
 .long a {
     width: 100%;
     height: 400px;
     box-shadow: 0 0 20px #0000002e;
-    border-radius: 1rem;
-    overflow: hidden;
     display: flex;
     flex-direction: column;
+    border-radius: 15px;
 }
 
 .court {
@@ -470,7 +473,7 @@ ul{
     width: 100%;
     height: 180px;
     box-shadow: 0 0 20px #0000002e;
-    border-radius: 1rem;
+    border-radius: 15px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
